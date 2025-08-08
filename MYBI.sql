@@ -1,0 +1,3 @@
+CREATE USER 'John'@'%' IDENTIFIED BY 'zx//john//22';
+GRANT ALL PRIVILEGES ON your_database.* TO 'John'@'%';
+FLUSH PRIVILEGES;
